@@ -64,6 +64,11 @@
 
    ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/c1fa1b8d-900b-485a-add1-d2fcf96d2c2b)
 
+   5) Na função Lambda, não esqueça de substituir o nome da sua tabela no retângulo vermelho.
+
+   ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/fa9587e3-f1ee-43cc-b012-3253c4e64833)
+
+
    
 
 
