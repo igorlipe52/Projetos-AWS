@@ -68,7 +68,21 @@
 
    ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/fa9587e3-f1ee-43cc-b012-3253c4e64833)
 
-   6) Por fim, volte ao arquivo anexado no amplify, edite o index e substitua o url copiado em seu notepad para invocar a API, zipe o arquivo novamente e dê deploy.
+   6) Por fim, volte ao arquivo anexado no amplify, edite o index e substitua o url copiado em seu notepad para invocar a API em "URL para invocar a API", zipe o arquivo novamente e dê deploy.
+
+      MEU EXEMPLO:
+
+      ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/d264417d-921c-46a3-932d-65ed8be6065d)
+
+
+   7) Demonstração do funcionamento da aplicação e o armazenamento do resultado no DynamoDB.
+
+      ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/9fdbd31f-fec7-409a-8d7d-06648e9c9898)
+
+      ![image](https://github.com/igorlipe52/Projetos-AWS/assets/140567532/df66c927-8c04-4694-9ab4-db1a1d583c89)
+
+ 
+
 
 
    
