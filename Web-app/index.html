@@ -55,7 +55,7 @@
                 body: raw,
                 redirect: 'follow'
             };
-            fetch("https://uk0bd2t4fg.execute-api.sa-east-1.amazonaws.com/dev", requestOptions)
+            fetch("URL para invocar a API", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
