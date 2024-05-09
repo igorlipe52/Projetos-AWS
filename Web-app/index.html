@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Potência!</title>
+    <style>
+    h1 {
+        color: #000000;
+        font-family: system-ui;
+		margin-left: 20px;
+        }
+	body {
+        background-color: #fc6a09;
+        }
+    label {
+        color: #0b0b0b;
+        font-family: system-ui;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+		margin-top: 20px;
+        }
+     button {
+        background-color: #fc6a09;
+		border-color: #fc6a09;
+		color: #000000;
+        font-family: system-ui;
+        font-size: 20px;
+		font-weight: bold;
+        margin-left: 30px;
+		margin-top: 20px;
+		width: 140px;
+        cursor: pointer;
+        }
+	 input {
+        background-color: #000000;
+        color: #fc6a09;
+        font-family: system-ui;
+        font-size: 20px;
+        margin-left: 10px;
+		margin-top: 20px;
+		width: 100px;
+        }
+
+    </style>
+    <script>
+        var callAPI = (base,exponent)=>{
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+
+            var raw = JSON.stringify({"base":base,"exponent":exponent});
+            var requestOptions = {
+                method: 'POST',
+                headers: myHeaders,
+                body: raw,
+                redirect: 'follow'
+            };
+            fetch("https://uk0bd2t4fg.execute-api.sa-east-1.amazonaws.com/dev", requestOptions)
+            .then(response => response.text())
+            .then(result => alert(JSON.parse(result).body))
+            .catch(error => console.log('error', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Calculadora de Potência</h1>
+	<form>
+        <label>Número da Base:</label>
+        <input type="text" id="base">
+        <label>Elevado a:</label>
+        <input type="text" id="exponent">
+        <button type="button" onclick="callAPI(document.getElementById('base').value,document.getElementById('exponent').value)">Calcular</button>
+    </form>
+</body>
+</html>
