@@ -8,7 +8,7 @@ Aqui você encontrará uma coleção de projetos nos quais utilizei tecnologias 
 
 ## Como Executar
 
-Cada projeto tem seu próprio diretório com um README sobre como executar e configurar o projeto localmente ou na AWS.
+Cada projeto tem seu próprio diretório com um README sobre como executar e configurar o projeto.
 
 ## Contato
 
