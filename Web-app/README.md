@@ -1,4 +1,4 @@
-# Calculadora Web-app
+# Calculadora de Potência Web-app
 
 1) Usaremos o Amplify para hostear a nossa aplicação "index".
 
