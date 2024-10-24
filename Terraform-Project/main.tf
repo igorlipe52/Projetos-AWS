@@ -68,7 +68,7 @@ provider "aws" {
   route_table_id = aws_route_table.produção-route-table.id
 }
 
-   #6 - Criar Security Group liberando as portas 22 (SSH), 80 (HTTP) e 443 (HTTPS
+   #6 - Criar Security Group liberando as portas 22 (SSH), 80 (HTTP) e 443 (HTTPS)
 
    resource "aws_security_group" "allow_web" {
   name        = "allow_web_traffic"
