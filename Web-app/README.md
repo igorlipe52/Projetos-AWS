@@ -1,6 +1,6 @@
 # Calculadora de Potência Web-app
 
-Web-app na AWS: usamos o AWS Amplify para hospedar a aplicação(Calculadora de Potência). Para realizar a operação matemática, utilizamos o AWS Lambda, invocado por uma REST API no API Gateway. O resultado da operação é armazenado em uma tabela no DynamoDB, com as permissões adequadas configuradas no IAM.
+- Web-app na AWS: usamos o AWS Amplify para hospedar a aplicação(Calculadora de Potência). Para realizar a operação matemática, utilizamos o AWS Lambda, invocado por uma REST API no API Gateway. O resultado da operação é armazenado em uma tabela no DynamoDB, com as permissões adequadas configuradas no IAM.
 
 1) Usaremos o Amplify para hostear a nossa aplicação "index".
 
