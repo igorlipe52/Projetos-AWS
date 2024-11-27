@@ -1,0 +1,1 @@
+- Provisionamento de infraestrutura com Terraform: hospedagem de uma aplicação web simples em uma instância EC2, com acesso à internet e protegida por um conjunto básico de regras de segurança.
