@@ -17,22 +17,22 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  description = "workshop-igor-key-pair-virg"
+  description = "<YOUR-KEY-NAME>"
   type        = string
-  default = "workshop-igor-key-pair-virg"
+  default = "<YOUR-KEY-NAME>"
 }
 
 variable "instance_name" {
-  description = "igor-lab-ec2"
+  description = "<YOUR-INSTANCE-NAME>"
   type        = string
-  default     = "igor-lab-ec2"
+  default     = "<YOUR-INSTANCE-NAME>"
 }
 
 variable "tags" {
   type = map(string)
   default = {
     Environment = "production"
-    Project     = "lab-igor-na-nuvem"
+    Project     = "<YOUR-PROJECT-NAME>"
   }
 }
 
