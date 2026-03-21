@@ -1,5 +1,5 @@
 resource "aws_security_group" "ec2_sg" {
-  name        = "ec2-igor-lab-sg"
+  name        = "<YOUR-SG-NAME>"
   description = "Allow SSH"
   vpc_id = data.terraform_remote_state.network.outputs.vpc_id
 
