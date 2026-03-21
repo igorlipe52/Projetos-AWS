@@ -43,7 +43,7 @@ variable "assume_role" {
   })
 
   default = {
-    arn    = "arn:aws:iam::198200019169:role/igor-lab-role"
+    arn    = "<YOUR-IAM-ARN-ROLE>"
     region = "us-east-1"
   }
 }
