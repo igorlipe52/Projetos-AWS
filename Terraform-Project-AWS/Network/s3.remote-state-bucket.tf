@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "igor-lab-2026-terraform-state"
+  bucket = "<YOUR-BUCKET-S3>"
 
   tags = {
     Name = "terraform-state"
