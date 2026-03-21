@@ -12,7 +12,7 @@ data "terraform_remote_state" "network" {
   backend = "s3"
 
   config = {
-    bucket = "igor-lab-2026-terraform-state"
+    bucket = "<YOUR-BUCKET-S3>"
     key    = "networking/terraform.tfstate"
     region = "us-east-1"
   }
